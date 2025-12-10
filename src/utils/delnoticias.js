@@ -1,7 +1,7 @@
 export async function delNoticiaRequest(idnoticia) {
     const body = { _id: idnoticia };
     try {
-        const response = await fetch(`https://api6anoticias.vercel.app/delnoticias`, {
+        const response = await fetch(`https://apiframe-eight.vercel.app/delnoticias`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
